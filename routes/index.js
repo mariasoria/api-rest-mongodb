@@ -4,7 +4,7 @@ const router = express.Router();
 // HOME PAGE
 router.get('/', function(req, res, next) {
   res.send('Hello from Index js');
-  next();
+  //next();
 });
 
 module.exports = router;

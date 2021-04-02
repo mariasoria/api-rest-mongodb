@@ -3,12 +3,12 @@ const router = express.Router();
 
 router.get('/',  function (req, res, next) {
     res.send('Hello from Products js');
-    next();
+    //next();
 });
 
 router.get('/inside',  function (req, res, next) {
     res.send('Hello from Products js - inside Products');
-    next();
+    //next();
 });
 
 module.exports = router;
